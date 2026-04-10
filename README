@@ -6,3 +6,5 @@ Requires kitty, niri, waybar, blueman, network-manager-applet, waypaper, rofi, w
 Optional: tlp, swaylock, firefox, codium, flameshot
 
 I strongly suggest only using the TLP config only if you have a 11th Gen Intel CPU Laptop with the Iris Xe only.
+
+![updater](pics/image1.png)
