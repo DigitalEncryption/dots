@@ -2,7 +2,6 @@ spawn-at-startup "waybar"
 spawn-at-startup "nm-applet"
 spawn-at-startup "blueman-applet"
 spawn-sh-at-startup "waypaper --restore"
-spawn-at-startup "flameshot"
 
 layout {
     gaps 16
