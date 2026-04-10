@@ -86,4 +86,5 @@ binds {
     XF86AudioPrev { spawn "playerctl" "previous";}
     Print { screenshot; }
     Super+Shift+X { spawn "swaylock"; }
+    Super+Shift+S { spawn "scrc";}
 }
