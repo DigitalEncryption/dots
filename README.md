@@ -1,10 +1,10 @@
-My Linux Dots
+**My Linux Dots**
 
-Simple, basic dots for anyone to use to get stuff done.
-
+**Simple, basic dots for anyone to use to get stuff done.**
+```sh
 Requires kitty, niri, waybar, blueman, network-manager-applet, waypaper, rofi, wpctl, brightnessctl
 Optional: tlp, swaylock, firefox, codium, flameshot
-
+```
 I strongly suggest only using the TLP config only if you have a 11th Gen Intel CPU Laptop with the Iris Xe only.
 
 ![updater](pics/image1.png)
