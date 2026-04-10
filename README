@@ -1,0 +1,6 @@
+My Linux Dots
+
+Simple, basic dots for anyone to use to get stuff done.
+
+Requires kitty, niri, waybar, blueman, network-manager-applet, waypaper, rofi, wpctl, brightnessctl
+Optional: tlp, swaylock, firefox, codium, flameshot
