@@ -1,0 +1,14 @@
+[General]
+Default Identity=618059546
+
+[Identity #0]
+Default Domain=fedora
+Disable Fcc=false
+Disable Spam=false
+Identity=liam
+Image Location=
+Inline Signature=
+Name=liam
+Override Encryption Defaults=false
+Signature Enabled=false
+uoid=618059546

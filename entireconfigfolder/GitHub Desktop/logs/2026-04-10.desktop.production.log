@@ -1,0 +1,86 @@
+2026-04-10T02:08:01.257Z - info: [ui] [AppStore] loading 0 repositories from store
+2026-04-10T02:08:01.279Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-04-10T02:08:01.300Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-04-10T02:08:01.304Z - info: [ui] launching: 3.4.9-linux1 (Linux 6.17.1-300.fc43.x86_64)
+2026-04-10T02:08:01.310Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2026-04-10T02:08:01.321Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-04-10T02:08:01.334Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-04-10T02:08:01.375Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-04-10T02:08:01.902Z - info: [ui] Opt in reported.
+2026-04-10T02:08:04.362Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2026-04-10T02:08:04.365Z - info: [ui] [SignInStore] initializing OAuth flow
+2026-04-10T02:08:04.365Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=4893a6f5-bd7d-4d35-82f6-23cf908fca6b
+2026-04-10T02:08:04.365Z - info: [ui] [SignInStore] account resolved
+2026-04-10T02:08:04.365Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2026-04-10T02:08:04.950Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2026-04-10T02:08:07.691Z - info: [main] Received possible protocol arguments: 4
+2026-04-10T02:08:07.691Z - info: [main] Processing protocol url
+2026-04-10T02:08:07.700Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2026-04-10T02:08:07.778Z - info: [main] Received possible protocol arguments: 2
+2026-04-10T02:08:07.783Z - info: [main] Processing protocol url
+2026-04-10T02:08:08.875Z - info: [ui] [AppStore] adding account DigitalEncryption (DigitalEncryption) to store
+2026-04-10T02:08:08.883Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2026-04-10T02:08:08.914Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-04-10T02:08:12.075Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-04-10T02:08:12.734Z - info: [ui] Subscribed 'DigitalEncryption' to Alive channel
+2026-04-10T02:08:12.784Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-04-10T02:08:13.249Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-04-10T02:08:44.134Z - info: [ui] [AppStore] adding repository at /home/liam/Documents/GitHub/dots to store
+2026-04-10T02:11:58.001Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.1s of which 0.0s paused, total 0.1s
+2026-04-10T02:19:02.929Z - info: [ui] [Timing] Action 'create commit' for 'dots' took 0.163s
+2026-04-10T02:19:16.959Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-04-10T02:19:19.866Z - info: [ui] Executing push: git push origin main --set-upstream --progress (took 3.273s)
+2026-04-10T02:24:47.461Z - info: [ui] [Timing] Action 'create commit' for 'DigitalEncryption/dots' took 0.060s
+2026-04-10T02:26:03.485Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-04-10T02:26:03.797Z - error: [ui] `git push origin main:main --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/DigitalEncryption/dots.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/DigitalEncryption/dots.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 11: The repository has been updated since you last pulled. Try pulling before pushing.)
+2026-04-10T02:26:16.609Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-04-10T02:26:17.450Z - info: [ui] Executing push: git push origin main:main --progress (took 1.233s)
+2026-04-10T02:28:53.300Z - info: [main] Received possible protocol arguments: 4
+2026-04-10T02:28:53.300Z - info: [main] Processing protocol url
+2026-04-10T02:28:53.390Z - info: [main] Received possible protocol arguments: 2
+2026-04-10T02:28:53.394Z - info: [main] Processing protocol url
+2026-04-10T02:30:49.629Z - info: [ui] [Timing] Action 'create commit' for 'DigitalEncryption/dots' took 0.051s
+2026-04-10T02:30:51.346Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-04-10T02:30:51.669Z - error: [ui] `git push origin main:main --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/DigitalEncryption/dots.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/DigitalEncryption/dots.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 11: The repository has been updated since you last pulled. Try pulling before pushing.)
+2026-04-10T02:30:59.249Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-04-10T02:31:00.076Z - info: [ui] Executing push: git push origin main:main --progress (took 1.190s)
+2026-04-10T02:41:17.813Z - info: [ui] [Timing] Action 'create commit' for 'DigitalEncryption/dots' took 0.056s
+2026-04-10T02:41:19.440Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-04-10T02:41:20.340Z - info: [ui] Executing push: git push origin main:main --progress (took 1.245s)
+2026-04-10T02:44:15.484Z - info: [ui] [AppStore] loading 1 repositories from store
+2026-04-10T02:44:15.489Z - info: [ui] [AppStore] found account: DigitalEncryption (DigitalEncryption)
+2026-04-10T02:44:15.518Z - info: [ui] [BranchPruner] Last prune took place 25 minutes ago - skipping
+2026-04-10T02:44:15.756Z - info: [ui] launching: 3.4.9-linux1 (Linux 6.17.1-300.fc43.x86_64)
+2026-04-10T02:44:15.756Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2026-04-10T02:44:16.447Z - info: [ui] Subscribed 'DigitalEncryption' to Alive channel
+2026-04-10T02:44:16.523Z - info: [ui] Stats reported.
+2026-04-10T02:45:39.180Z - info: [ui] [AppStore] loading 1 repositories from store
+2026-04-10T02:45:39.185Z - info: [ui] [AppStore] found account: DigitalEncryption (DigitalEncryption)
+2026-04-10T02:45:39.212Z - info: [ui] [BranchPruner] Last prune took place 26 minutes ago - skipping
+2026-04-10T02:45:39.536Z - info: [ui] launching: 3.4.9-linux1 (Linux 6.17.1-300.fc43.x86_64)
+2026-04-10T02:45:39.536Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2026-04-10T02:45:40.079Z - info: [ui] Subscribed 'DigitalEncryption' to Alive channel
+2026-04-10T02:45:47.788Z - info: [ui] [Timing] Action 'create commit' for 'DigitalEncryption/dots' took 0.108s
+2026-04-10T02:45:49.656Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store

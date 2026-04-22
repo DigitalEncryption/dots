@@ -1,0 +1,9 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/Downloads/command-configure_5.1.0-6.ubuntu20_amd64 (2)/
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+StatusBar=Disabled

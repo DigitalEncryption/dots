@@ -1,0 +1,10 @@
+{
+    "input_device": "Wireless Controller",
+    "output_device": "uinput-forty-two-xbox360",
+    "mappings": [
+        {
+            "input": "any",
+            "output": "passthrough"
+        }
+    ]
+}
